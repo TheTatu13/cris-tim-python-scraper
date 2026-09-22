@@ -14,7 +14,7 @@
 
 ## Current Job Listings (11)
 
-_Generated: 2026-09-22T19:56:53.932969+00:00_
+_Generated: 2026-09-22T22:57:34.602233+00:00_
 
 ### Specialist Sistem de Management Integrat (ISO 45001) și SSM
 
