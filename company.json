@@ -1,0 +1,67 @@
+{
+  "validatedAt": "2026-09-22T19:56:51.185416+00:00",
+  "source": "ANAF",
+  "brand": "Cris-Tim",
+  "anaf": {
+    "cui": 13533870,
+    "name": "CRIS-TIM FAMILY HOLDING S.A.",
+    "address": "JUD. PRAHOVA, SAT FILIPEŞTII DE PĂDURE COM. FILIPEŞTII DE PĂDURE, STR. GĂRII, NR.661",
+    "registrationNumber": "J2000000991296",
+    "phone": "0212020216",
+    "fax": "",
+    "postalCode": "107245",
+    "caenCode": "1013",
+    "iban": "",
+    "registrationState": "INREGISTRAT din data 17.11.2000",
+    "registrationDate": "2000-11-17",
+    "fiscalAuthority": "Direcţia Generală de Administrare a Marilor Contribuabili",
+    "ownershipForm": "PROPR.PRIVATA-CAPITAL PRIVAT AUTOHTON SI STRAIN",
+    "organizationForm": "PERSOANA JURIDICA",
+    "legalForm": "SOCIETATE COMERCIALĂ CU RĂSPUNDERE LIMITATĂ",
+    "vatRegistered": true,
+    "vatPeriods": [
+      {
+        "start": "2000-12-01",
+        "end": null,
+        "yearStart": "",
+        "message": ""
+      }
+    ],
+    "cashBasisVat": false,
+    "cashBasisVatStart": null,
+    "cashBasisVatEnd": null,
+    "inactive": false,
+    "inactiveSince": null,
+    "reactivatedSince": null,
+    "splitVat": false,
+    "eFacturaRegistered": false,
+    "headquartersAddress": {
+      "street": "Str. Gării",
+      "number": "661",
+      "locality": "Sat Filipeştii de Pădure Com. Filipeştii de Pădure",
+      "county": "PRAHOVA",
+      "country": "",
+      "postalCode": "107245"
+    },
+    "fiscalAddress": {
+      "street": "",
+      "number": "",
+      "locality": "",
+      "county": "",
+      "country": "",
+      "postalCode": ""
+    },
+    "administrators": [],
+    "authorizedCaenCodes": [],
+    "onrcStatus": 0,
+    "onrcStatusLabel": "Funcțiune"
+  },
+  "peviitor": null,
+  "summary": {
+    "company": "CRIS-TIM FAMILY HOLDING S.A.",
+    "cif": "13533870",
+    "active": true,
+    "inactiveSince": null,
+    "address": "JUD. PRAHOVA, SAT FILIPEŞTII DE PĂDURE COM. FILIPEŞTII DE PĂDURE, STR. GĂRII, NR.661"
+  }
+}

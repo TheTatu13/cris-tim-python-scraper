@@ -1,0 +1,17 @@
+{
+  "id": "13533870",
+  "company": "CRIS-TIM FAMILY HOLDING SA",
+  "brand": "Cris-Tim",
+  "status": "activ",
+  "location": [
+    "Bucuresti"
+  ],
+  "website": [
+    "https://cristim.ro"
+  ],
+  "career": [
+    "https://cariere.cristim.ro/"
+  ],
+  "scraperFile": "https://github.com/TheTatu13/cris-tim-python-scraper/actions/workflows/scrape.yml",
+  "ownJobUrlPrefix": "https://cariere.cristim.ro/cariere/"
+}

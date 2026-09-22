@@ -1,0 +1,26 @@
+{
+  "userAgent": "job_seeker_ro_spider",
+  "requestTimeoutSec": 10,
+  "pageDelaySec": 1.0,
+  "retry": {
+    "maxAttempts": 5,
+    "baseDelaySec": 2.0,
+    "maxDelaySec": 60.0,
+    "retryStatus": [429, 500, 502, 503, 504]
+  },
+  "staleJobDeletion": false,
+  "manageCompany": true,
+  "defaultLocation": ["Bucuresti"],
+  "defaultWorkmode": "on-site",
+  "ownJobUrlPrefix": "https://cariere.cristim.ro/cariere/",
+  "sources": {
+    "sitemap": "",
+    "listing": "https://cariere.cristim.ro/",
+    "jobArchive": "https://cariere.cristim.ro/cariere/"
+  },
+  "selectors": {
+    "jobArticle": [".dmach-grid-item", "[class*='job']", ".vacancy, .position, .listing-item"],
+    "jobTitle": [".dmach-post-title a", "h1, h2, h3, h4", "[itemprop='title'], [aria-label]", "a"],
+    "jobMeta": [".dmach-acf-value", "p, .meta, [class*='deadline']"]
+  }
+}
