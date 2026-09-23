@@ -10,11 +10,11 @@
 | Location | JUD. PRAHOVA, SAT FILIPEŞTII DE PĂDURE COM. FILIPEŞTII DE PĂDURE, STR. GĂRII, NR.661 |
 | Website | [https://cristim.ro](https://cristim.ro) |
 | Careers | [https://cariere.cristim.ro/](https://cariere.cristim.ro/) |
-| Last Scraped | 2026-09-22 |
+| Last Scraped | 2026-09-23 |
 
 ## Current Job Listings (11)
 
-_Generated: 2026-09-22T19:56:53.932969+00:00_
+_Generated: 2026-09-23T10:20:30.864676+00:00_
 
 ### Specialist Sistem de Management Integrat (ISO 45001) și SSM
 
