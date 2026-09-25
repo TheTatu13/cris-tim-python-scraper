@@ -10,17 +10,24 @@
 | Location | JUD. PRAHOVA, SAT FILIPEŞTII DE PĂDURE COM. FILIPEŞTII DE PĂDURE, STR. GĂRII, NR.661 |
 | Website | [https://cristim.ro](https://cristim.ro) |
 | Careers | [https://cariere.cristim.ro/](https://cariere.cristim.ro/) |
-| Last Scraped | 2026-09-24 |
+| Last Scraped | 2026-09-25 |
 
-## Current Job Listings (11)
+## Current Job Listings (12)
 
-_Generated: 2026-09-24T10:34:37.606600+00:00_
+_Generated: 2026-09-25T10:38:05.229276+00:00_
 
-### Specialist Sistem de Management Integrat (ISO 45001) și SSM
+### Specialist Achiziții – București | Oregon Park
 
-- **URL:** [https://cariere.cristim.ro/cariere/bucuresti/specialist-sistem-de-management-integrat-iso-45001-si-ssm/](https://cariere.cristim.ro/cariere/bucuresti/specialist-sistem-de-management-integrat-iso-45001-si-ssm/)
+- **URL:** [https://cariere.cristim.ro/cariere/bucuresti/specialist-achizitii-bucuresti-oregon-park/](https://cariere.cristim.ro/cariere/bucuresti/specialist-achizitii-bucuresti-oregon-park/)
 - **Work Mode:** on-site
-- **Location:** Bucuresti
+- **Location:** București
+- **Status:** scraped
+
+### Inspector SSM Junior – București | Oregon Park
+
+- **URL:** [https://cariere.cristim.ro/cariere/bucuresti/inspector-ssm-junior-bucuresti-oregon-park/](https://cariere.cristim.ro/cariere/bucuresti/inspector-ssm-junior-bucuresti-oregon-park/)
+- **Work Mode:** on-site
+- **Location:** București
 - **Status:** scraped
 
 ### Preparator Produse Culinare – Fabrica Ready Meal
