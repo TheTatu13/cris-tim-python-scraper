@@ -111,13 +111,35 @@ def scrape_careers() -> list[dict]:
     log.info("scraping %s ...", listing_url)
     entries = fetch_sitemap_job_urls()
 
-    try:
-        resp = fetch.get(listing_url, label="listing")
-        resp.raise_for_status()
-        items = parse_listing(resp.text)
-    except Exception as exc:  # noqa: BLE001
-        log.info("listing error: %s", exc)
-        items = []
+    # A 200 OK with zero matched items is not necessarily a dead selector --
+    # cariere.cristim.ro (Divi + an ajax-filtered grid, likely sitting behind
+    # a WAF/bot-mitigation layer) has been observed to occasionally serve a
+    # near-empty/challenge page with a 2xx status to a single request, then
+    # serve the real grid moments later. A hard HTTP error already gets
+    # fetch.get's own retry+backoff; this loop additionally retries a
+    # *successful but empty* response, which that layer doesn't cover, before
+    # falling through to the sitemap-only fallback / canary below.
+    items: list[dict] = []
+    _EMPTY_RETRY_ATTEMPTS = 3
+    for attempt in range(_EMPTY_RETRY_ATTEMPTS):
+        try:
+            resp = fetch.get(listing_url, label="listing")
+            resp.raise_for_status()
+            items = parse_listing(resp.text)
+        except Exception as exc:  # noqa: BLE001
+            log.info("listing error: %s", exc)
+            items = []
+            break  # a real HTTP/network error already exhausted fetch's own retries
+
+        if items:
+            break
+
+        log.warning(
+            "listing: 0 items on a %d response (%d bytes) -- attempt %d/%d",
+            resp.status_code, len(resp.content), attempt + 1, _EMPTY_RETRY_ATTEMPTS,
+        )
+        if attempt < _EMPTY_RETRY_ATTEMPTS - 1:
+            time.sleep(0.001 if _IS_TEST else scraper.get("emptyRetryDelaySec", 5.0))
 
     jobs: list[dict] = []
     if items:
