@@ -12,6 +12,6 @@
   "career": [
     "https://cariere.cristim.ro/"
   ],
-  "scraperFile": "https://github.com/TheTatu13/cris-tim-python-scraper/actions/workflows/scrape.yml",
+  "scraperFile": "https://github.com/peviitor-scrapers/cris-tim-python-scraper/actions/workflows/scrape.yml",
   "ownJobUrlPrefix": "https://cariere.cristim.ro/cariere/"
 }

@@ -26,4 +26,4 @@
 - Company status "activ" means jobs should be kept, otherwise remove jobs
 - website and career should be canonical URLs without trailing slash
 - **scraperFile**: full URL to the GitHub Actions workflow (no raw), e.g.
-  `https://github.com/TheTatu13/cris-tim-python-scraper/actions/workflows/scrape.yml`
+  `https://github.com/peviitor-scrapers/cris-tim-python-scraper/actions/workflows/scrape.yml`
